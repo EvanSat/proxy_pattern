@@ -10,7 +10,7 @@ public class OutsideLights implements GetOutsideLightState {
 		outsideLightsOn = new OutsideLightsOn(this);
 		outsideLightsOff = new OutsideLightsOff(this);
 		
-		state = outsideLightsOff;
+		state = outsideLightsOn;
 		
 	}
 	

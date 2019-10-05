@@ -18,6 +18,17 @@ public class TestOutsideLights {
 		outsideLights.nighttime();
 		
 		outsideLights.switchOn();
+		
+		outsideLights.daytime();
+		
+		outsideLights.switchOn();
+		
+		//GetOutsideLightState currentOutsideLights = new OutsideLights();
+		
+		GetOutsideLightState outsideLightProxy = new OutsideLightProxy();
+		
+		System.out.println("Outside light state is " + outsideLightProxy.getOutsideLightState());
+		
 	}
 	
 }
