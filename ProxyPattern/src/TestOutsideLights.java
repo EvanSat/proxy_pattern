@@ -23,11 +23,9 @@ public class TestOutsideLights {
 		
 		outsideLights.switchOn();
 		
-		//GetOutsideLightState currentOutsideLights = new OutsideLights();
-		
 		GetOutsideLightState outsideLightProxy = new OutsideLightProxy();
 		
-		System.out.println("Outside light state is " + outsideLightProxy.getOutsideLightState());
+		System.out.println("\nState = " + outsideLightProxy.getOutsideLightState());
 		
 	}
 	
